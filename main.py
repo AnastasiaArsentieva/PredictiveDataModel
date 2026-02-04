@@ -71,7 +71,7 @@ class ExcelViewerApp:
         # --- Визуальный заголовок ---
         title_label = tk.Label(
             root,
-            text="📊 tel.8-952-158-2514 готова к сотрудничеству - условия обсуждаемы",
+            text="📊 Predictive Price Model",
             #bg="#ffe6f0",  # Бледно-розовый фон
             #fg="#800080",  # Тёмно-сиреневый текст
             font=("Arial", 20, "bold"),
@@ -347,4 +347,5 @@ class TextRedirector(io.StringIO):
 if __name__ == "__main__":
     root = tk.Tk()
     app = ExcelViewerApp(root)
+
     root.mainloop()
